@@ -9,41 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Controle_Estoque_Front
 build_property.RootNamespace = Controle_Estoque_Front
-build_property.ProjectDir = E:\C#\Controle-Estoque-Front\Controle-Estoque-Front\
+build_property.ProjectDir = D:\C#\SLN-Controle-Estoque-Front\Controle-Estoque-Front\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\C#\Controle-Estoque-Front\Controle-Estoque-Front
+build_property.MSBuildProjectDirectory = D:\C#\SLN-Controle-Estoque-Front\Controle-Estoque-Front
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/C\#/Controle-Estoque-Front/Controle-Estoque-Front/Views/Home/Index.cshtml]
+[D:/C\#/SLN-Controle-Estoque-Front/Controle-Estoque-Front/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/SLN-Controle-Estoque-Front/Controle-Estoque-Front/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/C\#/Controle-Estoque-Front/Controle-Estoque-Front/Views/Home/Privacy - Cópia.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5IC0gQ8OzcGlhLmNzaHRtbA==
+[D:/C\#/SLN-Controle-Estoque-Front/Controle-Estoque-Front/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/C\#/Controle-Estoque-Front/Controle-Estoque-Front/Views/Produto/Index.cshtml]
+[D:/C\#/SLN-Controle-Estoque-Front/Controle-Estoque-Front/Views/Produto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/C\#/Controle-Estoque-Front/Controle-Estoque-Front/Views/Shared/Error.cshtml]
+[D:/C\#/SLN-Controle-Estoque-Front/Controle-Estoque-Front/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/C\#/Controle-Estoque-Front/Controle-Estoque-Front/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/C\#/SLN-Controle-Estoque-Front/Controle-Estoque-Front/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/C\#/Controle-Estoque-Front/Controle-Estoque-Front/Views/_ViewImports.cshtml]
+[D:/C\#/SLN-Controle-Estoque-Front/Controle-Estoque-Front/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/C\#/Controle-Estoque-Front/Controle-Estoque-Front/Views/_ViewStart.cshtml]
+[D:/C\#/SLN-Controle-Estoque-Front/Controle-Estoque-Front/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/C\#/Controle-Estoque-Front/Controle-Estoque-Front/Views/Shared/_Layout.cshtml]
+[D:/C\#/SLN-Controle-Estoque-Front/Controle-Estoque-Front/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-s2qb2tivkx
