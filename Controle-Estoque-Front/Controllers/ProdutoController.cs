@@ -8,5 +8,10 @@ namespace Controle_Estoque_Front.Controllers
         {
             return View();
         }
+
+        public IActionResult FormProduto()
+        {
+            return View();
+        }
     }
 }

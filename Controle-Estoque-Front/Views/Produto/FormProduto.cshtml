@@ -1,0 +1,58 @@
+﻿<form>
+    <fieldset>
+        <legend>Adicionar Novo Produto</legend>
+        <div class="row">
+
+            <div class="col-3">
+                <label for="Id" class="form-label">Id do Produto</label>
+                <input type="number" id="Id" class="form-control" placeholder="Id-Produto">
+            </div>
+
+            <div class="col-3">
+                <label for="NomeProduto" class="form-label">Nome do Produto</label>
+                <input type="text" id="NomeProduto" class="form-control" placeholder="Nome-Produto">
+            </div>
+
+            <div class="col-3">
+                <label for="PreçoProduto" class="form-label">Preço do Produto</label>
+                <input type="text" id="PreçoProduto" class="form-control" placeholder="Preço-Produto">
+            </div>
+
+            <div class="col-3">
+                <label for="QuantidadeProduto" class="form-label">Quantidade de Produtos</label>
+                <input type="text" id="QuantidadeProduto" class="form-control" placeholder="Quantidade-Produto">
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-3">
+                <label for="CategoryId" class="form-label">Id da Categoria</label>
+                <select id="CategoryId" class="form-select" placeholder="Id-Category">
+                    <option>Selecione o Id da Categoria</option>
+                    <option>1</option> 
+                    <option>2</option>
+                </select>
+            </div>
+
+            <div class="col-3">
+                <label for="CategoryName" class="form-label">Nome da Categoria</label>
+                <select id="CategoryName" class="form-select">
+                    <option>Selecione uma categoria</option>
+                    <option>Eletronicos</option>
+                    <option>Comida</option>
+                </select>
+            </div>
+
+            <div class="col-3">
+                <label for="DescriçãoDoProduto" class="form-label">Descrição do Produto</label>
+                <input type="text" id="DescriçãoDoProduto" class="form-control" placeholder="Descrição">
+            </div>
+
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+</form>
