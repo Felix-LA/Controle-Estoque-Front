@@ -63,3 +63,6 @@ D:\C#\SLN-Controle-Estoque-Front\Controle-Estoque-Front\bin\Debug\net6.0\Control
 D:\C#\SLN-Controle-Estoque-Front\Controle-Estoque-Front\bin\Debug\net6.0\ControleEstoque.Domain.pdb
 D:\C#\SLN-Controle-Estoque-Front\Controle-Estoque-Front\obj\Debug\net6.0\Controle-Estoque-Front.csproj.AssemblyReference.cache
 D:\C#\SLN-Controle-Estoque-Front\Controle-Estoque-Front\obj\Debug\net6.0\Controle-Estoque-Front.csproj.CopyComplete
+E:\C#\Controle-Estoque-Front\Controle-Estoque-Front\bin\Debug\net6.0\ControleEstoque.Domain.dll
+E:\C#\Controle-Estoque-Front\Controle-Estoque-Front\bin\Debug\net6.0\ControleEstoque.Domain.pdb
+E:\C#\Controle-Estoque-Front\Controle-Estoque-Front\obj\Debug\net6.0\Controle-Estoque-Front.csproj.CopyComplete

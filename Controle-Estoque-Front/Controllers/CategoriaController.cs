@@ -8,13 +8,19 @@ namespace Controle_Estoque_Front.Controllers
     {
         public IActionResult Index()
         {
-            CategoriaViewModel categoriaViewModel = new CategoriaViewModel();
+            CategoriaViewModel categoriaComida = new CategoriaViewModel();
 
-            categoriaViewModel.Name = "Comida";
-            categoriaViewModel.Status = CategoryStatusEnum.Ativo;
+            categoriaComida.Name = "Comida";
+            categoriaComida.Status = CategoryStatusEnum.Ativo;
+
+            CategoriaViewModel categoriaEletronico= new CategoriaViewModel();
+
+            categoriaEletronico.Name = "Eletronico";
+            categoriaEletronico.Status = CategoryStatusEnum.Ativo;
 
             List<CategoriaViewModel> listCategorias = new List<CategoriaViewModel>();
-            listCategorias.Add(categoriaViewModel);
+            listCategorias.Add(categoriaComida);
+            listCategorias.Add(@categoriaEletronico);
 
             return View(listCategorias);
         }
