@@ -1,0 +1,11 @@
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\bin\Debug\net6.0\ControleEstoque.Domain.deps.json
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\bin\Debug\net6.0\ControleEstoque.Domain.dll
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\bin\Debug\net6.0\ControleEstoque.Domain.pdb
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\obj\Debug\net6.0\ControleEstoque.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\obj\Debug\net6.0\ControleEstoque.Domain.AssemblyInfoInputs.cache
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\obj\Debug\net6.0\ControleEstoque.Domain.AssemblyInfo.cs
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\obj\Debug\net6.0\ControleEstoque.Domain.csproj.CoreCompileInputs.cache
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\obj\Debug\net6.0\ControleEstoque.Domain.dll
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\obj\Debug\net6.0\refint\ControleEstoque.Domain.dll
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\obj\Debug\net6.0\ControleEstoque.Domain.pdb
+D:\C#\SLN-Controle-Estoque-Front\ControleEstoque.Domain\obj\Debug\net6.0\ref\ControleEstoque.Domain.dll

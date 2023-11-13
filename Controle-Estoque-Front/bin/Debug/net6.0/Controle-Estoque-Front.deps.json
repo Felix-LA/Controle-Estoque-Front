@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Controle-Estoque-Front/1.0.0": {
+        "dependencies": {
+          "ControleEstoque.Domain": "1.0.0"
+        },
         "runtime": {
           "Controle-Estoque-Front.dll": {}
+        }
+      },
+      "ControleEstoque.Domain/1.0.0": {
+        "runtime": {
+          "ControleEstoque.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Controle-Estoque-Front/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControleEstoque.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

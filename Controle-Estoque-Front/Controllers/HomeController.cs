@@ -1,4 +1,5 @@
-﻿using Controle_Estoque_Front.Models;
+﻿using ControleEstoque.Domain.Models;
+using ControleEstoque.Domain.Models.DataModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
