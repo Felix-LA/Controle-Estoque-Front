@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\Controle-Estoque-Front\\Controle-Estoque-Front\\Controle-Estoque-Front.csproj": {}
+    "D:\\C#\\SLN-Controle-Estoque-Front\\Controle-Estoque-Front\\Controle-Estoque-Front.csproj": {}
   },
   "projects": {
-    "E:\\C#\\Controle-Estoque-Front\\Controle-Estoque-Front\\Controle-Estoque-Front.csproj": {
+    "D:\\C#\\SLN-Controle-Estoque-Front\\Controle-Estoque-Front\\Controle-Estoque-Front.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Controle-Estoque-Front\\Controle-Estoque-Front\\Controle-Estoque-Front.csproj",
+        "projectUniqueName": "D:\\C#\\SLN-Controle-Estoque-Front\\Controle-Estoque-Front\\Controle-Estoque-Front.csproj",
         "projectName": "Controle-Estoque-Front",
-        "projectPath": "E:\\C#\\Controle-Estoque-Front\\Controle-Estoque-Front\\Controle-Estoque-Front.csproj",
-        "packagesPath": "C:\\Users\\felix\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Controle-Estoque-Front\\Controle-Estoque-Front\\obj\\",
+        "projectPath": "D:\\C#\\SLN-Controle-Estoque-Front\\Controle-Estoque-Front\\Controle-Estoque-Front.csproj",
+        "packagesPath": "C:\\Users\\tatia\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\SLN-Controle-Estoque-Front\\Controle-Estoque-Front\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\felix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\tatia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\C#\\Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj": {
-                "projectPath": "E:\\C#\\Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj"
+              "D:\\C#\\SLN-Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj": {
+                "projectPath": "D:\\C#\\SLN-Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj"
               }
             }
           }
@@ -67,25 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\C#\\Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj": {
+    "D:\\C#\\SLN-Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj",
+        "projectUniqueName": "D:\\C#\\SLN-Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj",
         "projectName": "ControleEstoque.Domain",
-        "projectPath": "E:\\C#\\Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj",
-        "packagesPath": "C:\\Users\\felix\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Controle-Estoque-Front\\ControleEstoque.Domain\\obj\\",
+        "projectPath": "D:\\C#\\SLN-Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj",
+        "packagesPath": "C:\\Users\\tatia\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\SLN-Controle-Estoque-Front\\ControleEstoque.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\felix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\tatia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +84,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

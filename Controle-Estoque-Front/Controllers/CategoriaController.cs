@@ -8,26 +8,46 @@ namespace Controle_Estoque_Front.Controllers
     {
         public IActionResult Index()
         {
-            CategoriaViewModel categoriaComida = new CategoriaViewModel();
-
-            categoriaComida.Name = "Comida";
-            categoriaComida.Status = CategoryStatusEnum.Ativo;
-
-            CategoriaViewModel categoriaEletronico= new CategoriaViewModel();
-
-            categoriaEletronico.Name = "Eletronico";
-            categoriaEletronico.Status = CategoryStatusEnum.Ativo;
-
-            List<CategoriaViewModel> listCategorias = new List<CategoriaViewModel>();
-            listCategorias.Add(categoriaComida);
-            listCategorias.Add(@categoriaEletronico);
-
-            return View(listCategorias);
+            return View(GetListCategorias());
         }
 
         public IActionResult FormCategoria()
         {
             return View();
+        }
+
+        [HttpGet]
+        [Route("/Category/View/{Id:Int}", Name = "ViewCategoria")]
+
+        public IActionResult View(int Id)
+        {
+            var listaCategorias = GetListCategorias();
+
+            var categoria = listaCategorias.Where(c => c.Id.Equals(Id)).FirstOrDefault();
+
+            return View(categoria);
+        }
+
+        private List<CategoriaViewModel> GetListCategorias()
+        {
+            CategoriaViewModel categoriaComida = new CategoriaViewModel();
+
+            categoriaComida.Id = 1;
+            categoriaComida.Name = "Comida";
+            categoriaComida.Status = StatusEnum.Ativo;
+
+            CategoriaViewModel categoriaEletronico = new CategoriaViewModel();
+
+            categoriaEletronico.Id = 2;
+            categoriaEletronico.Name = "Eletronico";
+            categoriaEletronico.Status = StatusEnum.Ativo;
+
+            List<CategoriaViewModel> listCategorias = new List<CategoriaViewModel>();
+            listCategorias.Add(categoriaComida);
+            listCategorias.Add(@categoriaEletronico);
+
+            return listCategorias;
+
         }
     }
 }

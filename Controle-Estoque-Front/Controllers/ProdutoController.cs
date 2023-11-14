@@ -8,12 +8,36 @@ namespace Controle_Estoque_Front.Controllers
     {
         public IActionResult Index()
         {
+            return View(GetListProdutos());
+        }
+
+        public IActionResult FormProduto()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        [Route("/Products/View/{Id:Int}", Name = "ViewProduto")]
+
+        public IActionResult View(int Id)
+        {
+            var listaProdutos = GetListProdutos();
+
+            var produto = listaProdutos.Where(p => p.Id.Equals(Id)).FirstOrDefault();
+
+            return View(produto);
+        }
+
+        private List<ProdutoViewModel> GetListProdutos()
+        {
+
             ProdutoViewModel produtoMelancia = new ProdutoViewModel();
             CategoriaViewModel categoriaComida = new CategoriaViewModel();
 
             categoriaComida.Name = "Comida";
-            categoriaComida.Status = CategoryStatusEnum.Ativo;
+            categoriaComida.Status = StatusEnum.Ativo;
 
+            produtoMelancia.Id = 1;
             produtoMelancia.Name = "Melancia";
             produtoMelancia.Price = 10;
             produtoMelancia.Quantity = 20;
@@ -25,8 +49,9 @@ namespace Controle_Estoque_Front.Controllers
             CategoriaViewModel categoriaEletronico = new CategoriaViewModel();
 
             categoriaEletronico.Name = "Eletronicos";
-            categoriaEletronico.Status = CategoryStatusEnum.Ativo;
+            categoriaEletronico.Status = StatusEnum.Ativo;
 
+            produtoCelular.Id = 2;
             produtoCelular.Name = "Celular";
             produtoCelular.Price = 1000;
             produtoCelular.Quantity = 9;
@@ -37,12 +62,8 @@ namespace Controle_Estoque_Front.Controllers
             listProdutos.Add(produtoMelancia);
             listProdutos.Add(produtoCelular);
 
-            return View(listProdutos);
-        }
+            return listProdutos;
 
-        public IActionResult FormProduto()
-        {
-            return View();
         }
     }
 }

@@ -1,27 +1,22 @@
 ﻿@using ControleEstoque.Domain.Models.DataModel;
 
 @{
-    ViewData["Title"] = "Listagem de Categorias";
+    ViewData["Title"] = "Listagem de Marca";
 }
 
-@model List<CategoriaViewModel>
+@model List<MarcaViewModel>
 
 <h1>@ViewData["Title"]</h1>
 
 <table class="table table-striped table-bordered table-hover border-dark">
   <thead>
     <tr>
-      <th scope="col">Nome da Categoria</th>
-      <th scope="col">Status da Categoria</th>
+      <th scope="col">Nome da Marca</th>
+      <th scope="col">Status da Marca</th>
       <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
-  
-    @* <tr>
-      <td>Eletronicos</td>
-      <td>1</td>
-    </tr> *@
  
         @{
             foreach(var item in Model)
@@ -29,7 +24,7 @@
                 <tr>
                     <td>@item.Name</td>
                     <td>@item.Status</td>
-                    <td>@Html.RouteLink("Visualizar", "ViewCategoria", new {Id = item.Id})</td>
+                    <td>@Html.RouteLink("Visualizar", "ViewMarca", new {Id = item.Id})</td>
                 </tr>
                 
             }

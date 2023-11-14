@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mCM05x20enMeQAr3jLmWzpHgqPTyDun/WKtxTYXhPl+3zcovUYipBYSZv0gRl9zTVrjwu19sSscFzANjhK7TyA==",
+  "dgSpecHash": "aQi7AcpO518RMkyoulU9djjZtRgU1wegh4ZSmXstf8BWzwzFxNyur1qf22JzZ4BldLSScCFpg/RlUmX8FJwlrQ==",
   "success": true,
-  "projectFilePath": "E:\\C#\\Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj",
+  "projectFilePath": "D:\\C#\\SLN-Controle-Estoque-Front\\ControleEstoque.Domain\\ControleEstoque.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

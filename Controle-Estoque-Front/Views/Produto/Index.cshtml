@@ -15,6 +15,7 @@
       <th scope="col">Quantidade de Produto</th>
       <th scope="col">Nome da Categoria</th>
       <th scope="col">Descrição do Produto</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
@@ -36,9 +37,12 @@
                     <td>@item.Quantity</td>
                     <td>@item.Categoria.Name</td>
                     <td>@item.Description</td>
+                    <td>@Html.RouteLink("Visualizar", "ViewProduto", new {Id = item.Id})</td>
                 </tr>
             }
         }
+        
+        
 
   </tbody>
 </table>

@@ -1,0 +1,53 @@
+﻿@using ControleEstoque.Domain.Models.DataModel;
+
+
+@model ProdutoViewModel
+
+<form>
+    <fieldset>
+        <legend>Adicionar Novo Produto</legend>
+        <div class="row">
+
+            <div class="col-3">
+                <label for="NomeProduto" class="form-label">Nome do Produto</label>
+                @* <input type="text" id="NomeProduto" class="form-control" placeholder="Nome-Produto"> *@
+                @Html.DisplayFor(model => model.Name)
+            </div>
+
+            <div class="col-3">
+                <label for="PreçoProduto" class="form-label">Preço do Produto</label>
+                @* <input type="text" id="PreçoProduto" class="form-control" placeholder="Preço-Produto"> *@
+                @Html.DisplayFor(model => model.Price)
+            </div>
+
+            <div class="col-3">
+                <label for="QuantidadeProduto" class="form-label">Quantidade de Produtos</label>
+                @* <input type="text" id="QuantidadeProduto" class="form-control" placeholder="Quantidade-Produto"> *@
+                @Html.DisplayFor(model => model.Quantity)
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-3">
+                <label for="CategoryName" class="form-label">Nome da Categoria</label>
+                <select id="CategoryName" class="form-select">
+                    <option>Selecione uma categoria</option>
+                    <option>Eletronicos</option>
+                    <option>Comida</option>
+                </select>
+            </div>
+
+            <div class="col-3">
+                <label for="DescriçãoDoProduto" class="form-label">Descrição do Produto</label>
+                @* <input type="text" id="DescriçãoDoProduto" class="form-control" placeholder="Descrição"> *@
+                @Html.DisplayFor(model => model.Description)
+            </div>
+
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+</form>

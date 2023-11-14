@@ -1,0 +1,30 @@
+﻿@using ControleEstoque.Domain.Models.DataModel;
+
+@model MarcaViewModel
+
+<form>
+    <fieldset>
+        <legend>Adicionar Nova Categoria</legend>
+        <div class="row">
+
+            <div class="col-3">
+                <label for="NomeMarca" class="form-label">Nome da Marca</label>
+                @* <input type="text" id="NomeMarca" class="form-control" placeholder="Nome-Marca"> *@
+                @Html.DisplayFor(model => model.Name)
+            </div>
+
+            <div class="col-3">
+                <label for="StatusDaMarca" class="form-label">Status da Marca</label>
+                <select id="StatusMarca" class="form-control">
+                    <option>Status</option>
+                    <option>0-Inativo</option>
+                    <option>1-Ativo</option>
+                </select>
+            </div>
+
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+</form>
